@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-06-11T11:39:51 GMT-08:00" name="Suite" finished-at="2022-06-11T11:41:28 GMT-08:00" duration-ms="96708">
+    <groups>
+    </groups>
+    <test started-at="2022-06-11T11:39:51 GMT-08:00" name="Test" finished-at="2022-06-11T11:41:28 GMT-08:00" duration-ms="96708">
+      <class name="TestClass.VerifyUseCanBuyProduct">
+        <test-method is-config="true" signature="beforeClass(java.lang.String)[pri:0, instance:TestClass.VerifyUseCanBuyProduct@2a798d51]" started-at="2022-06-11T11:39:51 GMT-08:00" name="beforeClass" finished-at="2022-06-11T11:40:33 GMT-08:00" duration-ms="41921" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:TestClass.VerifyUseCanBuyProduct@2a798d51]" started-at="2022-06-11T11:40:33 GMT-08:00" name="beforeMethod" finished-at="2022-06-11T11:40:34 GMT-08:00" duration-ms="200" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="VerifyUserCanLLogin()[pri:1, instance:TestClass.VerifyUseCanBuyProduct@2a798d51]" started-at="2022-06-11T11:40:34 GMT-08:00" name="VerifyUserCanLLogin" finished-at="2022-06-11T11:40:42 GMT-08:00" duration-ms="7923" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyUserCanLLogin -->
+        <test-method is-config="true" signature="aftermethod(org.testng.ITestResult)[pri:0, instance:TestClass.VerifyUseCanBuyProduct@2a798d51]" started-at="2022-06-11T11:40:42 GMT-08:00" name="aftermethod" finished-at="2022-06-11T11:40:42 GMT-08:00" duration-ms="778" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyUserCanLLogin status=SUCCESS method=VerifyUseCanBuyProduct.VerifyUserCanLLogin()[pri:1, instance:TestClass.VerifyUseCanBuyProduct@2a798d51] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:TestClass.VerifyUseCanBuyProduct@2a798d51]" started-at="2022-06-11T11:40:42 GMT-08:00" name="beforeMethod" finished-at="2022-06-11T11:40:42 GMT-08:00" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="VerifyUserCanSearchProduct()[pri:2, instance:TestClass.VerifyUseCanBuyProduct@2a798d51]" started-at="2022-06-11T11:40:42 GMT-08:00" name="VerifyUserCanSearchProduct" finished-at="2022-06-11T11:41:16 GMT-08:00" duration-ms="33269" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyUserCanSearchProduct -->
+        <test-method is-config="true" signature="aftermethod(org.testng.ITestResult)[pri:0, instance:TestClass.VerifyUseCanBuyProduct@2a798d51]" started-at="2022-06-11T11:41:16 GMT-08:00" name="aftermethod" finished-at="2022-06-11T11:41:17 GMT-08:00" duration-ms="1505" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyUserCanSearchProduct status=SUCCESS method=VerifyUseCanBuyProduct.VerifyUserCanSearchProduct()[pri:2, instance:TestClass.VerifyUseCanBuyProduct@2a798d51] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:TestClass.VerifyUseCanBuyProduct@2a798d51]" started-at="2022-06-11T11:41:17 GMT-08:00" name="beforeMethod" finished-at="2022-06-11T11:41:17 GMT-08:00" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="VerifyUsercanSelectTheProductAndMoveTodetailPage()[pri:3, instance:TestClass.VerifyUseCanBuyProduct@2a798d51]" started-at="2022-06-11T11:41:17 GMT-08:00" name="VerifyUsercanSelectTheProductAndMoveTodetailPage" finished-at="2022-06-11T11:41:24 GMT-08:00" duration-ms="7279" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyUsercanSelectTheProductAndMoveTodetailPage -->
+        <test-method is-config="true" signature="aftermethod(org.testng.ITestResult)[pri:0, instance:TestClass.VerifyUseCanBuyProduct@2a798d51]" started-at="2022-06-11T11:41:24 GMT-08:00" name="aftermethod" finished-at="2022-06-11T11:41:25 GMT-08:00" duration-ms="564" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyUsercanSelectTheProductAndMoveTodetailPage status=SUCCESS method=VerifyUseCanBuyProduct.VerifyUsercanSelectTheProductAndMoveTodetailPage()[pri:3, instance:TestClass.VerifyUseCanBuyProduct@2a798d51] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method is-config="true" signature="afterclass()[pri:0, instance:TestClass.VerifyUseCanBuyProduct@2a798d51]" started-at="2022-06-11T11:41:25 GMT-08:00" name="afterclass" finished-at="2022-06-11T11:41:28 GMT-08:00" duration-ms="3079" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterclass -->
+      </class> <!-- TestClass.VerifyUseCanBuyProduct -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
