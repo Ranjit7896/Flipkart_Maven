@@ -6,6 +6,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 
 public class Base_Class {
 	public static WebDriver getmethod(String browser) {
+		int a=10;
 		WebDriver driver =null;
 		if(browser.equals("chrome")) {
 			System.setProperty("webdriver.chrome.driver", "E:\\chromedriver.exe");
